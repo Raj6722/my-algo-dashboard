@@ -1,4 +1,4 @@
 streamlit
-pymongo
-pandas
+pymongo[srv]
 dnspython
+pandas
