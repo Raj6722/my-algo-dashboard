@@ -8,12 +8,13 @@ import ssl
 st.set_page_config(page_title="Algo Monitor", layout="wide")
 
 # CSS - सुंदर दिखाने के लिए
+# इसे खोजें और बदलें
 st.markdown("""
     <style>
     .main { background-color: #0e1117; }
     .stMetric { background-color: #1e2130; padding: 15px; border-radius: 10px; }
     </style>
-    """, unsafe_index=True)
+    """, unsafe_allow_html=True) # यहाँ unsafe_allow_html=True होना चाहिए
 
 st.title("📊 My Algo Trading Dashboard")
 
