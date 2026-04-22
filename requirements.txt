@@ -1,4 +1,5 @@
 streamlit
+pandas
 pymongo[srv]
 dnspython
-pandas
+streamlit-autorefresh
